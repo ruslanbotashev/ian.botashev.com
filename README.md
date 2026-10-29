@@ -2,6 +2,4 @@
 
 Personal website for [ian.botashev.com](https://ian.botashev.com/).
 
-The public static release belongs in `site/`. Research, editable source, provenance and local review artifacts are maintained outside this repository.
-
-GitHub Pages publishes through the repository workflow. DNS is managed separately through Terraform pull requests in `botashevs-infra/dns-config`.
+This repository contains the public static release in `site/` and a pinned GitHub Pages deployment workflow. Pushes to `main` publish the website. Private research, editable source and local reviews are kept outside this repository. Custom-domain DNS is managed separately through Terraform pull requests.
